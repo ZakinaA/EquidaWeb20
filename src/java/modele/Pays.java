@@ -13,6 +13,7 @@ public class Pays {
     
     private String code ;
     private String nom;
+    private int  numeroINSEE;
 
     public Pays() {
     }
