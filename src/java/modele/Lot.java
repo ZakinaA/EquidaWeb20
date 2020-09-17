@@ -11,4 +11,16 @@ package modele;
  */
 public class Lot {
     
+    private Enchere uneEnchere ;
+
+    public Enchere getUneEnchere() {
+        return uneEnchere;
+    }
+
+    public void setUneEnchere(Enchere uneEnchere) {
+        this.uneEnchere = uneEnchere;
+    }
+    
+    
+    
 }
