@@ -10,5 +10,6 @@ package modele;
  * @author Zakina
  */
 public class Enchere {
+   // complément classe Enchere
     
 }
