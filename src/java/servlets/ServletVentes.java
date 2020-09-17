@@ -107,6 +107,8 @@ public class ServletVentes extends HttpServlet {
         // Récup et affichage des clients interessés par une certaine catégorie de ventes
         if(url.equals("/EquidaWeb20/ServletVentes/listerLesChevaux")){
             
+          String idVente = (String)request.getParameter("idVente");
+            
         }
         
     }
