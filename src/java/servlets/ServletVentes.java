@@ -95,7 +95,7 @@ public class ServletVentes extends HttpServlet {
         // Récup et affichage des clients interessés par une certaine catégorie de ventes
         if(url.equals("/EquidaWeb20/ServletVentes/listerLesClients"))
         {  
-           System.out.println("DANS LISTER LES CLIENTS");
+           //System.out.println("DANS LISTER LES CLIENTS");
             String codeCat = (String)request.getParameter("codeCat");
            
             
@@ -104,7 +104,10 @@ public class ServletVentes extends HttpServlet {
             getServletContext().getRequestDispatcher("/vues/ventes/listerLesClients.jsp").forward(request, response);
         }
         
-        
+        // Récup et affichage des clients interessés par une certaine catégorie de ventes
+        if(url.equals("/EquidaWeb20/ServletVentes/listerLesChevaux")){
+            
+        }
         
     }
 
