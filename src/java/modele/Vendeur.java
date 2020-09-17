@@ -10,5 +10,26 @@ package modele;
  * @author Zakina
  */
 public class Vendeur {
+
+    public Vendeur() {
+    }
+
+    public Vendeur(String nomEntreprise) {
+        this.nomEntreprise = nomEntreprise;
+    }
+    
+   
+    
+    private String nomEntreprise ;
+
+    public String getNomEntreprise() {
+        return nomEntreprise;
+    }
+
+    public void setNomEntreprise(String nomEntreprise) {
+        this.nomEntreprise = nomEntreprise;
+    }
+    
+    
     
 }
